@@ -259,7 +259,80 @@ article p {
 }
 
 
+footer{
+    position: absolute;
+    width:100%;
+    margin-top:40px;
+    background: #141414;
+    padding:20px;
+}
 
+
+
+footer .section-fluid  ul  {
+    padding:0px;
+}
+
+footer .section-fluid > ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding:0px 10px 0px 10px;
+    border-left:1px solid #fff;
+    height: 20px;
+}
+
+
+footer .section-fluid > ul  li:nth-child(1) {
+    border-left:none;
+    margin-left:-10px;
+}
+
+
+footer .section-fluid > ul li a {
+   text-decoration: none;
+   color:#fff;
+}
+
+
+footer .section-fluid > ul li a:hover {
+    text-decoration: underline;
+    color:#fff;
+ }
+
+ .social-icons ul li{
+     display: inline-block;
+     list-style-type: none;
+     margin-left:-8px;
+ }
+
+ .youtube-icon{
+     background: url('https://www.lloyds.com/css/icons/youtube.svg') no-repeat center center;
+     width:40px;
+     height: 50px;
+ }
+
+
+ .twitter-icon{
+    background: url('https://www.lloyds.com/css/icons/twitter.svg') no-repeat center center;
+    width:40px;
+    height: 50px;
+}
+
+.facebook-icon{
+    background: url('https://www.lloyds.com/css/icons/facebook.svg') no-repeat center center;
+    width:40px;
+    height: 50px;
+}
+
+.linkedin-icon{
+    background: url('https://www.lloyds.com/css/icons/linkedin.svg') no-repeat center center;
+    width:40px;
+    height: 50px;
+}
+
+.footnotes{
+    color:#fff;
+}
 
 
 
