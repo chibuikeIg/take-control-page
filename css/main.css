@@ -195,6 +195,35 @@ div.active a {
 
 .share{
     padding:20px;
+    cursor: pointer;
+}
+
+.onclicksharebtn{
+    width:140px;
+    margin-bottom: -20px;   
+    height: 50px;
+    background-color: #141414;
+    padding:10px 20px 10px 20px; 
+    cursor: pointer;
+}
+
+.onclicksharebtn a {
+    color:#fff; 
+}
+
+.share-icons{
+    width:190px;
+    background-color: #141414;
+    
+}
+
+.share-icons ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.share-icons ul{
+    padding:0px;
 }
 
 .section-fluid{
@@ -204,7 +233,7 @@ div.active a {
 
 article p {
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-size: 15px;
+    font-size: 13.80px;
     font-weight: 400px;
     line-height: 1.5em;
 }
@@ -216,7 +245,7 @@ article p {
 }
 
 .col-6{
-    width:75%;
+    width:60%;
 }
 
 
@@ -228,29 +257,26 @@ article p {
     text-align: start;
 }
 
-.col-6 h1{
+.col-6 h2{
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-size: 28px;
-    font-weight: 400px;
+    font-size: 20px;
     line-height: 1.5em;
     margin-top:0px;
-    
 }
 
 
 .col-4{
     width:20%;
     margin-right:30px;
+    margin-left:15px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0,0,0.5);
 }
 
 
 .download{
-    width: 110px;
+    width: 105px;
     padding:20px;
     background-color: #0a4bb7;
-    
-
 }
 
 .download a {
@@ -306,28 +332,34 @@ footer .section-fluid > ul li a:hover {
  }
 
  .youtube-icon{
-     background: url('https://www.lloyds.com/css/icons/youtube.svg') no-repeat center center;
+     background: url(https://www.lloyds.com/css/icons/youtube.svg) no-repeat center center;
      width:40px;
      height: 50px;
  }
 
 
  .twitter-icon{
-    background: url('https://www.lloyds.com/css/icons/twitter.svg') no-repeat center center;
+    background: url(https://www.lloyds.com/css/icons/twitter.svg) no-repeat center center;
     width:40px;
     height: 50px;
 }
 
 .facebook-icon{
-    background: url('https://www.lloyds.com/css/icons/facebook.svg') no-repeat center center;
+    background: url(https://www.lloyds.com/css/icons/facebook.svg) no-repeat center center;
     width:40px;
     height: 50px;
 }
 
 .linkedin-icon{
-    background: url('https://www.lloyds.com/css/icons/linkedin.svg') no-repeat center center;
+    background: url(https://www.lloyds.com/css/icons/linkedin.svg) no-repeat center center;
     width:40px;
     height: 50px;
+}
+
+.email-icon {
+    background: url(https://www.lloyds.com/css/icons/email.svg) no-repeat center center;
+    width:40px;
+    height: 50px
 }
 
 .footnotes{
@@ -344,9 +376,46 @@ footer .section-fluid > ul li a:hover {
 }
 
 
+.market-directory-tab-pannel {
+    position: absolute;
+    width:74%;
+    background-color:#f1f1f1;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0,0,0.2);
+}
+
+
 .col-12 {
     width:95%;
     margin: 0px auto;
     border-bottom:1px solid #000;
 }
 
+
+
+.grid{
+    display: flex;
+    
+}
+
+.col-wd-4{
+    width:33.33%;
+}
+
+.col-wd-4 > ul li{
+    list-style-type: none;
+    padding:10px;
+}
+
+.col-wd-4 > ul {
+    padding: 0px 10px 0px 14px;
+}
+
+.col-wd-4 > ul li a  {
+    text-decoration:none;
+    color:#141414;
+}
+
+.col-wd-4 > ul li a:hover {
+    text-decoration:underline;
+    
+}

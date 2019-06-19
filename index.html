@@ -38,30 +38,75 @@
             <!-- =========Top header ends here =========== -->
             <!-- =========Bottom header starts here =========== -->
             <div class="bottom-header">
-                <div class="nav-tab active"><a href="https://www.lloyds.com/news-and-risk-insight">News and risk insight</a></div>
-                <div class="nav-tab"><a href="https://www.lloyds.com/market-directory">Market directory</a></div>
+                <div class="nav-tab active" id="new-risk-tab"><a id="tab-link" href="https://www.lloyds.com/news-and-risk-insight">News and risk insight</a></div>
+                <div class="nav-tab" id="m-tab"><a id="m-tab-link" href="https://www.lloyds.com/market-directory">Market directory</a></div>
                 <div class="nav-tab"><a href="https://www.lloyds.com/market-resources">Market resources</a></div>
                 <div class="nav-tab"><a href="https://www.lloyds.com/tools-and-systems">Tools and systems</a></div>
                 <div class="nav-tab"><a href="https://www.lloyds.com/lloyds-around-the-world">Lloyd's around the world</a></div>
             </div>
-            <div class="new-risk-tab-pannel">
+            <!-- =========Bottom header ends here =========== -->
+            <!-- =========new-risk-tab-pannel starts here =========== -->
+            <div class="new-risk-tab-pannel" style="display: none;">
                <div class="col-12">
                    <h4>News and risk insight</h4>
                </div>
                <div class="grid">
-                   <div class="col-md-4">
+                   <div class="col-wd-4">
                        <ul>
                            <li><a href="https://www.lloyds.com/news-and-risk-insight/press-releases">Press releases</a></li>
-                           <li><a href="https://www.lloyds.com/news-and-risk-insight/press-releases">Press releases</a></li>
-                           <li><a href="https://www.lloyds.com/news-and-risk-insight/press-releases">Press releases</a></li>
-                           <li><a href="https://www.lloyds.com/news-and-risk-insight/press-releases">Press releases</a></li>
+                           <li><a href="https://www.lloyds.com/events">Events</a></li>
+                           <li><a href="https://www.lloyds.com/cityriskindex/">City Risk Index</a></li>
+                           <li><a href="https://futureat.lloyds.com/propsectus">Future at Lloyd's</a></li>
                        </ul>
                    </div>
-                   <div class="col-md-4"></div>
-                   <div class="col-md-4"></div>
+                   <div class="col-wd-4">
+                    <ul>
+                        <li><a href="https://www.lloyds.com/news-and-risk-insight/news">News</a></li>
+                        <li><a href="https://www.lloydsbrussels.com/">Lloyd’s subsidiary in Brussels</a></li>
+                        <li><a href="https://www.lloyds.com/news-and-risk-insight/consumer-alerts">Consumer alerts</a></li>
+                       
+                    </ul>
+                   </div>
+                   <div class="col-wd-4">
+                    <ul>
+                        <li><a href="https://www.lloyds.com/news-and-risk-insight/risk-reports">Risk reports</a></li>
+                        <li><a href="https://www.lloydslab.com/">Lloyd's Lab</a></li>
+                        <li><a href="https://www.lloyds.com/news-and-risk-insight/media-centre">Media centre</a></li>
+  
+                    </ul>
+                   </div>
                </div>
             </div>
-            <!-- =========Bottom header ends here =========== -->
+             <!-- =========new-risk-tab-pannel ends here =========== -->
+             <!-- =========market-directory-tab-pannel starts here =========== -->
+            <div class="market-directory-tab-pannel" style="display: none;">
+                <div class="col-12">
+                    <h4>Market directory</h4>
+                </div>
+                <div class="grid">
+                    <div class="col-wd-4">
+                        <ul>
+                            <li><a href="https://www.lloyds.com/the-market/directories/results?mode=bro&cobc=0&cob=&bro_num=&pseudo=&name=&loc=&bro=1&cov=0&man=0&mem=0&omc=0&run=0">Brokers</a></li>
+                            <li><a href="https://www.lloyds.com/the-market/directories/results?mode=man&cobc=0&cob=&name=&syn_num=&loc=&bro=0&cov=0&man=0&mem=1&omc=0&run=0">Members' agents</a></li>
+                            <li><a href="https://www.lloyds.com/market-directory/committees-,-a-,-associations">Committees and associations</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-wd-4">
+                     <ul>
+                         <li><a href="https://www.lloyds.com/the-market/directories/results?mode=bro&cobc=0&cob=&bro_num=&pseudo=&name=&loc=&bro=0&cov=1&man=0&mem=0&omc=0&run=0">Coverholders</a></li>
+                         <li><a href="https://www.lloyds.com/the-market/directories/results?mode=mem&name=&loc=&bro=0&cov=0&man=0&mem=0&omc=1&run=0">Open Market Correspondents</a></li>
+                     </ul>
+                    </div>
+                    <div class="col-wd-4">
+                     <ul>
+                         <li><a href="https://www.lloyds.com/the-market/directories/results?mode=bro&cobc=0&cob=&name=&ltti=&fca_num=&loc=&bro=0&cov=0&man=1&mem=0&omc=0&run=0">Managing agents</a></li>
+                         <li><a href="https://www.lloyds.com/the-market/directories/results?mode=omc&name=&loc=&bro=0&cov=0&man=0&mem=0&omc=0&run=1">Run off brokers</a></li>
+                     </ul>
+                    </div>
+                </div>
+             </div>
+              <!-- =========market-directory-tab-pannel ends here =========== -->
+            
         </header>
         <!-- =========Header ends here =========== -->
         <!-- =========Banner  starts here =========== -->
@@ -77,8 +122,33 @@
                     <h1>Taking control</h1>
                     <p>How artificial intelligence and robots create new risks and opportunities for insurance and society</p>
                 </div>
-                <div class="share">
-                    <a><i class="fa fa-share-alt"></i>&nbsp;&nbsp;Share</a>
+                <div class="share" id="share-container">
+                    <a id="sharebtn"><i class="fa fa-share-alt"></i>&nbsp;&nbsp;Share</a>
+                    <a id="clickedBtn" style="display: none"><i class="fa fa-share-alt"></i>&nbsp;&nbsp;Share</a>
+                </div>
+                <div class="" id="icon-container" style="display: none;">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/LloydsofLondon">
+                                <div class="twitter-icon"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com/company/lloyd%27s-of-london">
+                                <div class="linkedin-icon"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/lloyds">
+                                <div class="facebook-icon"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:?subject=Taking-control&amp;body=https%3a%2f%2fwww.lloyds.com%3a443%2fnews-and-risk-insight%2frisk-reports%2flibrary%2ftechnology%2ftaking-control" target="_blank"">
+                                <div class="email-icon"></div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -94,10 +164,10 @@
                     <div class="col-4">
                         <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/taking-control-thumb.png" alt="taking-control-thumb.png" style="width:100%;height: 100%;">
                     </div>
-                    <div class="col-6">
-                        <h1>
+                    <div class="col-6" style="">
+                        <h2>
                             Taking control: artificial intelligence and insurance
-                        </h1>
+                        </h2>
                         <p>
                             This report identifies four risks areas for AI: trust and transparency, ethics, security and safety. It highlights that as artificial intelligence systems become more complex, cyber breaches are likely to have an even greater impact. The report also explores new business opportunities for insurers from developing new products for companies using the AI to applying the technology to improve insurance processes and deliver better value.  
                         </p>
@@ -106,22 +176,22 @@
                         </div>
                     </div>
                 </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/robots-thumbnail.png" style="max-width:100%;height:100%; ">
-                </div>
-                <div class="col-6">
-                    <h1>
-                            Taking control: robots and risk
-                    </h1>
-                    <p>
-                        In the future millions of jobs could be taken over by increasingly sophisticated robots or cobots (“collaborative robots”), according to various predictions. This report explores robotics potential to significantly change the risk landscape in many parts of the economy, including: manufacturing, agriculture, healthcare and retail. It also explores the opportunity for insurers to collaborate with clients as data from cobots will provide a much greater understanding of risk and offer opportunities for improved risks and pricing models.
-                    </p>
-                    <div class="download">
-                        <a href="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/aireport_2019_final_pdf.pdf">Download</a>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/robots-thumbnail.png" style="max-width:100%;height:100%; ">
+                    </div>
+                    <div class="col-6">
+                        <h2>
+                                Taking control: robots and risk
+                        </h2>
+                        <p>
+                            In the future millions of jobs could be taken over by increasingly sophisticated robots or cobots (“collaborative robots”), according to various predictions. This report explores robotics potential to significantly change the risk landscape in many parts of the economy, including: manufacturing, agriculture, healthcare and retail. It also explores the opportunity for insurers to collaborate with clients as data from cobots will provide a much greater understanding of risk and offer opportunities for improved risks and pricing models.
+                        </p>
+                        <div class="download">
+                            <a href="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/aireport_2019_final_pdf.pdf">Download</a>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
         <footer>
@@ -165,5 +235,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
