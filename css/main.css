@@ -68,7 +68,7 @@ nav ul {
     width:15%;
 }
 
-.search input{
+.search input,.search-dropdown input{
     width:100%;
     padding:10px;
     outline:none;
@@ -420,6 +420,6 @@ footer .section-fluid > ul li a:hover {
     
 }
 
-.mobile{
+.mobile-navbar{
     display:none;
 }

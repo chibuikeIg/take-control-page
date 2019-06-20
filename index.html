@@ -33,7 +33,7 @@
                     </ul>
                 </nav>
                 <div class="search">
-                    <input type="text" name="" placeholder="Search">
+                    <input type="text" required placeholder="Search">
                 </div>
             </div>
             <!-- =========Top header ends here =========== -->
@@ -107,7 +107,9 @@
                 </div>
              </div>
               <!-- =========market-directory-tab-pannel ends here =========== -->
+              <!-- =========mobile navbar starts here =========== -->
               <div class="mobile-navbar">
+                  <!-- =========header navbar starts here =========== -->
                   <div class="header">
                       <div class="col-wd-6">
                             <div class="logo">
@@ -117,12 +119,60 @@
                        <div class="col-wd-6">
                            <ul>
                                <li><a href="https://www.lloyds.com/Account/Login"><img class="user-icon" src="http://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/256/user-icon.png"></a></li>
-                               <li><img class="search-icon" src="https://www.stickpng.com/assets/images/585e4ad1cb11b227491c3391.png"></li>
-                               <li><img class="bars-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5yAFsnykczWvsUY6ry56lao7OyZ3Stj34qtihjJsovQPYIoLA"></li>
+                               <li id="toggle-search"><img class="search-icon" src="https://www.stickpng.com/assets/images/585e4ad1cb11b227491c3391.png"></li>
+                               <li id="toggle-dropdown"><img class="bars-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5yAFsnykczWvsUY6ry56lao7OyZ3Stj34qtihjJsovQPYIoLA"></li>
                            </ul>
                        </div>
                   </div>
+                   <!-- =========header navbar ends here =========== -->
+
+                   <!-- =========search dropdown starts here =========== -->
+                   <div class="search-dropdown">
+                           <input type="text" required placeholder="Search">
+                   </div>
+                   <!-- =========search dropdown ends here =========== -->
+
+                    <!-- =========nav-dropdown  starts here =========== -->
+                  <div class="nav-dropdown">
+                      <!-- =========topnav  starts here =========== -->
+                      <div class="top-nav">
+                            <div class="news-tab nav-tab">
+                                <a  href="https://www.lloyds.com/news-and-risk-insight">News and risk insight</a>
+                                <i class="fa fa-plus float-left"></i>
+                            </div>
+                            <div class="mdir-tab nav-tab">
+                                <a href="https://www.lloyds.com/market-directory">Market directory</a>
+                                <i class="fa fa-plus float-left"></i>
+                            </div>
+                            <div class="mr-tab nav-tab">
+                                <a href="https://www.lloyds.com/market-resources">Market resources</a>
+                                <i class="fa fa-plus float-left"></i>
+                            </div>
+                            <div class="tools-tab nav-tab">
+                                <a href="https://www.lloyds.com/tools-and-systems">Tools and systems</a>
+                                <i class="fa fa-plus float-left"></i>
+                            </div>
+                            <div class="lloyds-tab nav-tab">
+                                <a href="https://www.lloyds.com/lloyds-around-the-world">Lloyd's around the world</a>
+                                <i class="fa fa-plus float-left"></i>
+                            </div>
+                      </div>
+                      <!-- =========topnav  starts here =========== -->
+                      <div class="bottom-nav">
+                          <div class="nav-link"><a href="https://www.lloyds.com/about-lloyds">About</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/about-lloyds/value_proposition_broker">Brokers</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/about-lloyds/value_proposition_coverholder">Coverholders</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/about-lloyds/value_proposition_insurer">Insurer</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/policyholder">Policyholders</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/careers">Careers</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/investor-relations">Investor relations</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/contact-us">Contact</a></div>
+                          <div class="nav-link"><a href="https://www.lloyds.com/Account/Login">Login/register</a></div>
+                      </div>
+                  </div>
+                   <!-- =========nav-dropdown ends starts here =========== -->
               </div>
+              <!-- =========mobile navbar ends here =========== -->
         </header>
         <!-- =========Header ends here =========== -->
         <!-- =========Banner  starts here =========== -->
@@ -252,5 +302,6 @@
         </footer>
     </div>
     <script src="js/main.js"></script>
+    <script src="js/dropdown.js"></script>
 </body>
 </html>
