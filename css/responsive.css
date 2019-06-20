@@ -6,9 +6,9 @@
         width:100%;
         margin:0px auto;
     }
-    .mobile{
+    .mobile-navbar{
         display:block;
-        border:1px solid red;
+        
     }
 
     .banner{
@@ -58,7 +58,38 @@
     footer .footnotes{
         padding-left:10px;
     }
+    .mobile-navbar .header{
+        display: flex;
+        width:95%;
+        margin:0px auto;
+        padding-bottom: 15px;
+    }
+    .col-wd-6{
+        width:50%;
+    }
 
+    .col-wd-6 .logo{
+        width:50%;
+    }
 
+    .search-icon,.user-icon,.bars-icon{
+        width:25px;
+    }
+
+    .col-wd-6 ul{
+        padding:0px;
+        text-align: right;
+        margin-top:0px;
+    }
+
+    .col-wd-6 ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding:3px 5px 0px 5px;
+    }
+
+    .col-wd-6 ul li a {
+        color:#000;
+    }
 
 }
