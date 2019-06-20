@@ -1,4 +1,4 @@
-window.onload = () => {
+
     const toggler=document.getElementById('toggle-dropdown');
     const toggleSearch=document.getElementById('toggle-search');
     localStorage.setItem('dropdown','off');
@@ -28,5 +28,5 @@ window.onload = () => {
         }
     });
 
-}
+
 
